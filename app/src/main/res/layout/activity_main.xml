@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName17"
+        android:layout_width="345dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="256"
+        android:text="name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="345dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:maxLength="256"
+        android:text="gmail"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName17"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName17"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName17" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName28"
+        android:layout_width="345dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="14"
+        android:text="phone"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName30"
+        android:layout_width="345dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="512"
+        android:text="full_address"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName28"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName28"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName28" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName31"
+        android:layout_width="345dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="256"
+        android:text="name_of_university"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName30"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName30"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName30" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal3"
+        android:layout_width="345dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="cgpa"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNumber3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumber3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber3" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="345dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="experience_in_months"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNumberDecimal3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumberDecimal3"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal3" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="345dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="graduation_year"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName31"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName31"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName31" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName32"
+        android:layout_width="345dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="256"
+        android:text="current_work_place_name"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNumber2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumber2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+
+    <AutoCompleteTextView
+        android:id="@+id/apply"
+        android:layout_width="345dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:text="applying_in"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName32"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName32"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName32" />
+
+    <EditText
+        android:id="@+id/editTextNumber4"
+        android:layout_width="345dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="expected_salary"
+        app:layout_constraintEnd_toEndOf="@+id/apply"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="@+id/apply"
+        app:layout_constraintTop_toBottomOf="@+id/apply" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName33"
+        android:layout_width="345dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="256"
+        android:text="field_buzz_reference (if any)"
+        app:layout_constraintEnd_toEndOf="@+id/editTextNumber4"
+        app:layout_constraintStart_toStartOf="@+id/editTextNumber4"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber4" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName34"
+        android:layout_width="345dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="github_project_url"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName33"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName33"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName33" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="117dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="32dp"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName34"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName34"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName34"
+        app:layout_constraintVertical_bias="0.213" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
