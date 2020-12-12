@@ -13,8 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.select_dialog_singlechoice, apply_in);
-        AutoCompleteTextView acTextView = (AutoCompleteTextView) findViewById(R.id.apply);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.select_dialog_singlechoice, apply_in);
+        AutoCompleteTextView acTextView = findViewById(R.id.apply);
         acTextView.setThreshold(1);
         //Set the adapter
         acTextView.setAdapter(adapter);

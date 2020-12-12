@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Cvtion</string>
+    <string name="name">name</string>
+    <string name="gmail">gmail</string>
+    <string name="phone">phone</string>
+    <string name="full_address">full_address</string>
+    <string name="name_of_university">name_of_university</string>
+    <string name="cv_file">cv_file (PDF file input)</string>
+    <string name="submit">Submit</string>
+    <string name="github_project_url">github_project_url</string>
+    <string name="cgpa">cgpa</string>
+    <string name="experience_in_months">experience_in_months</string>
+    <string name="graduation_year">graduation_year</string>
+    <string name="working_place">current_work_place_name</string>
+    <string name="applying">applying_in</string>
+    <string name="expected_salary">expected_salary</string>
+    <string name="field_buzz_reference">field_buzz_reference (if any)</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 </resources>
